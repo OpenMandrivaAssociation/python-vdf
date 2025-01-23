@@ -21,7 +21,6 @@ Pure python module for (de)serialization to and from VDF that works just like js
 %autosetup -n %{pypi_name}-%{version} -p1
 
 %files 
-%license LICENSE
 %doc README.rst
 %{python3_sitelib}/%{pypi_name}/
 %{python3_sitelib}/%{pypi_name}-%{version}*.egg-info
