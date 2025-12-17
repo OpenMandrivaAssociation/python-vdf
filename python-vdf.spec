@@ -2,7 +2,7 @@
 
 Name:       python-%{pypi_name}
 Version:    3.4
-Release:    1
+Release:    2
 Summary:    Package for working with Valve's text and binary KeyValue format
 BuildArch:  noarch
 License:    MIT
@@ -10,7 +10,7 @@ URL:        https://github.com/ValvePython/vdf
 Source0:    Source0:	https://files.pythonhosted.org/packages/source/v/vdf/vdf-%{version}.tar.gz
 
 BuildRequires: python3-devel
-BuildRequires: python3dist(setuptools)
+BuildRequires: python%{pyver}dist(setuptools)
 
 BuildSystem:	python
 
